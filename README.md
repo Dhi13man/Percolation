@@ -1,4 +1,6 @@
 # Percolation
+
+
 IntelliJ IDEA IDE and JDK 13 is used in the build.
 --
 
@@ -9,7 +11,7 @@ The Percolation Class is the software modelling of the scientific concept of Per
 The Percolation Statistics Class calculates the Percolation Threshold(59% approx), which is the mean value of number of randomly opened sites, out of the total number of sites, at which the system Percolates(gets connected through open sites in any path from top edge to bottom edge). It also calculates the Standard Deviation and 95% Percolation confidence interval.
 
 Possible applications
---
+---
 In the fields of Chemistry, Physics and Material Sciences, a Percolation model can be created to find if a certain material is porous, conductive etc. 
 
 It can also be used to predict flow paths and in Social Media Analysis to see if different groups of people on other edges of the Social spectrum will eventually connect, through mutual contacts.
