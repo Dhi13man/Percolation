@@ -11,7 +11,7 @@ In the fields of Chemistry, Physics and Material Sciences, a Percolation model c
 
 It can also be used to predict flow paths and in Social Media Analysis to see if different groups of people on other edges of the Social spectrum will eventually connect, through mutual contacts.
 
---
+---
 
 Note: The Interactive Percolation Visualizer, the Java libraries used are provided by the course, and not my own creation. The code behind the
 Percolation class and the Percolation statistics calculating class, is my own.
