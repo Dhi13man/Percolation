@@ -13,5 +13,6 @@ It can also be used to predict flow paths and in Social Media Analysis to see if
 
 ---
 
-Note: The Interactive Percolation Visualizer, the Java libraries used are provided by the course, and not my own creation. The code behind the
-Percolation class and the Percolation statistics calculating class, is my own.
+Note: The Interactive Percolation Visualizer, the Java libraries used are provided as materials by the course, courtesy of Princeton, and not my own creation. 
+
+The code behind the Percolation class and the Percolation statistics calculating class and methods, is my own.
