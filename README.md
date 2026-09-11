@@ -1,23 +1,31 @@
 # Percolation
 
+Java implementation of an *n*×*n* percolation grid using path-compressed union-find, written for Princeton Algorithms, Part I. Open sites, test whether a site is full (connected to the top), and test whether the system percolates from top to bottom.
 
-IntelliJ IDEA IDE and JDK 13 is used in the build.
---
+`PercolationStats` estimates the percolation threshold by Monte Carlo (mean fraction of open sites at percolation is about 59% in this model) and reports standard deviation and a 95% confidence interval.
 
-This is a project created as an assignment for the Princeton University course, Algorithms 1. 
+## Install
 
-The Percolation Class is the software modelling of the scientific concept of Percolation, as an implementation of the path compressed Union-Find algorithm. It creates an n by n blocked grid, and can then open up sites, check if a site is open, check if a site is full(connected to the top) and also check if the system ultimately Percolates.
+JDK 13 was used in the original IntelliJ build. Course libraries for the interactive visualizer are credited in `CREDITS` and are not original to this repo.
 
-The Percolation Statistics Class calculates the Percolation Threshold(59% approx), which is the mean value of number of randomly opened sites, out of the total number of sites, at which the system Percolates(gets connected through open sites in any path from top edge to bottom edge). It also calculates the Standard Deviation and 95% Percolation confidence interval.
+```sh
+git clone https://github.com/Dhi13man/Percolation.git
+cd Percolation
+javac Percolation.java PercolationStats.java
+```
 
-Possible applications
----
-In the fields of Chemistry, Physics and Material Sciences, a Percolation model can be created to find if a certain material is porous, conductive etc. 
+## Use
 
-It can also be used to predict flow paths and in Social Media Analysis to see if different groups of people on other edges of the Social spectrum will eventually connect, through mutual contacts.
+- `Percolation` models the grid.
+- `PercolationStats` runs trials and prints mean, stddev, and confidence bounds.
+- `PercolationVisualizer` / `InteractivePercolationVisualizer` use Princeton course libraries.
 
----
+Possible uses of the same model (porous materials, flow paths, connectivity of a graph) are the standard percolation interpretation; this code is the course assignment, not a materials simulator.
 
-Note: The Interactive Percolation Visualizer, the Java libraries used are provided as materials by the course, courtesy of Princeton, and not my own creation. 
+## Contributing
 
-The code behind the Percolation class and the Percolation statistics calculating class and methods, is my own.
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
